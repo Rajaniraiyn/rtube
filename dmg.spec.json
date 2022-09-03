@@ -1,0 +1,27 @@
+{
+    "title": "RTube Installer",
+    "background-color": "#326DE6",
+    "icon": "./build/appicon.png",
+    "background": "./build/bg.svg",
+    "icon-size": 80,
+    "window": {
+      "size":{
+        "width": 500,
+        "height": 500
+      }
+    },
+    "contents": [
+      {
+        "x": 0,
+        "y": 250,
+        "type": "file",
+        "path": "./build/bin/RTube.app"
+      },
+      {
+        "x": 250,
+        "y": 250,
+        "type": "link",
+        "path": "/Applications"
+      }
+    ]
+  }

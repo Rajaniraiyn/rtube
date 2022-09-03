@@ -1,0 +1,16 @@
+{
+  "name": "rtube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rajaniraiyn <rajaniraiyn@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "~/go/bin/wails dev",
+    "build": "~/go/bin/wails build -clean -platform=darwin/universal,windows/amd64,windows/arm64",
+    "pack:dmg": "appdmg dmg.spec.json ./build/bin/RTube.dmg",
+    "wails": "~/go/bin/wails"
+  },
+  "devDependencies": {
+    "appdmg": "^0.6.4"
+  }
+}

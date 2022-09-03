@@ -1,0 +1,12 @@
+{
+  "name": "RTube",
+  "outputfilename": "RTube",
+  "frontend:install": "yarn",
+  "frontend:build": "yarn build",
+  "frontend:dev:watcher": "yarn dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Rajaniraiyn",
+    "email": "rajaniraiyn@gmail.com"
+  }
+}
