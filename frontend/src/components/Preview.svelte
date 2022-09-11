@@ -66,7 +66,7 @@
       <div class="right-side">
         <span>
           <i class="ai-clock" />
-          {ms(ms(duration +"s"))}
+          {ms(ms(duration + "s"))}
         </span>
         <span>
           <i class="ai-eye-open" />
@@ -108,14 +108,11 @@
   .video-preview {
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
     position: relative;
-    transform:
-    scale(0.9)
-    perspective(75em)
-    rotateX(18deg);
-  transform-style: preserve-3d;
-  transition: transform 0.4s ease;
+    transform: scale(0.9) perspective(75em) rotateX(18deg);
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease;
   }
-  
+
   .video-preview:where(:hover, :has(video)) {
     transform: scale(1);
   }

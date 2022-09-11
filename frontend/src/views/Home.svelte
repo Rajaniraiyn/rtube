@@ -27,8 +27,8 @@
       <i class="ai-send" />
     </button>
   </form>
-  <img src={lline} alt="">
-  <img src={bblury} alt="" style:width="100vw" style:bottom=0>
+  <img src={lline} alt="" />
+  <img src={bblury} alt="" style:width="100vw" style:bottom="0" />
 </main>
 
 <style>

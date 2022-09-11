@@ -3,7 +3,7 @@
   import Downoad from "./views/Downoad.svelte";
   import Home from "./views/Home.svelte";
 
-  router.mode.hash()
+  router.mode.hash();
 </script>
 
 <Route path="/">

@@ -51,7 +51,7 @@
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    text-align: center ;
+    text-align: center;
     padding: 0.5em;
     font-size: 0.75em;
     background-color: var(--bg-color);
