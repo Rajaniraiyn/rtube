@@ -3,11 +3,15 @@
   import bblury from "../assets/images/bbblurry-2.svg";
   import { router } from "tinro";
 
-  let url;
+  let url: string;
 
   function start() {
-    const id = new URL(url).searchParams.get("v");
-
+    let id: string;
+    if (url.includes("youtube.com")) {
+      id = new URL(url).searchParams.get("v");
+    } else if (url.includes("youtu.be")) {
+      id = url.split("youtu.be/")[1];
+    }
     router.goto(`/${id}`);
   }
 </script>
